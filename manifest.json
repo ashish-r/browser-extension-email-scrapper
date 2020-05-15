@@ -1,0 +1,25 @@
+{
+    "name": "Email Scraper",
+    "version": "1.0",
+    "description": "Browserstack task",
+    "manifest_version": 2,
+    "permissions": [
+        "storage","tabs", "<all_urls>"
+    ],
+    "browser_action": {
+        "default_icon": {
+            "16": "hello_extensions.png",
+            "32": "hello_extensions.png"
+        },
+        "default_popup": "popup.html",
+        "default_title": "Check to see if our code is on this page"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+  }
