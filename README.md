@@ -3,7 +3,7 @@ POC on browser extensions (Email Scrapper)
 
 Develop a Chrome Extension using which, we can extract all the emails on the current page. 
 
-### Requirements
+## Requirements
 
 Scrape all the emails on the Web Page using Chrome Extension.
 
