@@ -1,4 +1,4 @@
-# poc-browser-extension-email-scrapper
+# browser-extension-email-scrapper
 POC on browser extensions (Email Scrapper)
 
 Develop a Chrome Extension using which, we can extract all the emails on the current page. 
