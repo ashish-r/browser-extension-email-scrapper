@@ -8,7 +8,7 @@
                 var url = tabs[0].url;
                 chrome.storage.local.get(['email'], function(result) {
                     const allSavedEmails = JSON.parse(result.email || '{}')
-                    let emailsToDisplay = allSavedEmails[(new URL(url)).origin]
+                    let emailsToDisplay = allSavedEmails[(new URL(url)).origin] || []
                     if (domain) {
                         emailsToDisplay = allSavedEmails[domain] || []
                     }
